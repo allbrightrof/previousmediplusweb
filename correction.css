@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+--nav-load-time:300ms;
+--nav-link-load-time:500ms;
+--article-load-delay: calc(var( --nav-load-time) + var(   --nav-link-load-time))
+  }
+header{
+    position: fixed;
+    align-items: center;
+    z-index: 1000;
+    width:100%;
+  }
+  .div-1{
+    display: flex;
+    justify-content:flex-start;
+    margin: 0 auto;
+  }
+  .logo-container {
+    display: flex;
+}
+  .image-1{
+    width: 50px;
+  }
+  nav{
+  display:flex;
+  justify-content: center;
+  background-color: black;
+  }
+  nav ul {
+   display: flex;
+   padding-right: 50px;                                                                                                                                                                                                                                                                                                                                         
+  }
